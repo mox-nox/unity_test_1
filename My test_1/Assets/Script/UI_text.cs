@@ -7,9 +7,9 @@ using UnityEngine;
 public class UI_text : MonoBehaviour
 {
     public TextMeshProUGUI txt;
-    public string nextText = "¹Ù²î³ª¿ä?";
+    public string nextText;
 
-    OnButtonClick OnButtonClick;
+    //OnButtonClick OnButtonClick;
 
     
     public void OnClickButton()
